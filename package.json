@@ -1,0 +1,19 @@
+{
+  "name": "drizzlebug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "drizzle-kit generate:pg",
+    "push": "drizzle-kit push:pg"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@xata.io/client": "^0.29.3",
+    "drizzle-orm": "^0.30.4"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.20.14"
+  }
+}
